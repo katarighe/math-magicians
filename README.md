@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magicians Project] <a name="about-project"></a>
+# 📖 Math Magicians Project <a name="about-project"></a>
 
 The **Maths Magicians React Project** is a beginner-level project on Microverse that teaches you how to build a React app. The project is about a simple calculator that can be used to perform basic mathematical operations.
 
