@@ -1,9 +1,4 @@
 <a name="readme-top"></a>
-
-<h3><b>Math Magicians Project</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
