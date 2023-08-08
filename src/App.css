@@ -8,23 +8,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Droid Sans', sans-serif;
-  background: linear-gradient(red, white);
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(#7f00ff, #e0e0e0);
 }
 
 .calculator {
-  max-width: 330px;
-  border: 1px solid black;
+  max-width: 320px;
 }
 
 .calculator_screen {
   padding: 10px;
-  font-size: 4rem;
+  font-size: 5em;
   text-align: right;
-  background-color: grey;
+  background-color: #808080;
 }
 
-.calculatorUI {
+.calculator_UI {
   display: flex;
   flex-wrap: wrap;
 }
@@ -32,15 +31,16 @@ body {
 button {
   flex: 0 1 25%;
   height: 70px;
-  color: black;
-  font-size: 2rem;
-  background: gray;
-  border: 1px solid beige;
+  color: #111;
+  font-size: 2em;
+  background: #e0e0e0;
+  border: 1px solid #c7c7c7;
   cursor: pointer;
 }
 
 .btn_opaque {
-  background-color: orange;
+  background-color: #7f00ff;
+  color: #fff;
 }
 
 .btn_large {
