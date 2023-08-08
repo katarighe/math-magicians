@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(#ffa500, #e0e0e0);
+  background: linear-gradient(#ffa500, #e0e0e0, #ffa500);
 }
 
 .calculator {
