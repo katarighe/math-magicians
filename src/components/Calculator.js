@@ -11,7 +11,7 @@ export default class Calculator extends Component {
       <div className="calculator">
         <div className="calculator_container">
           <div className="calculator_screen">0</div>
-          <div className="calculatorUI">
+          <div className="calculator_UI">
             <button type="button" value="clear">AC</button>
             <button type="button" value="pos-neg">+/-</button>
             <button type="button" value="%">%</button>
