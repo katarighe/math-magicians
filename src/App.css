@@ -17,10 +17,11 @@ body {
 }
 
 .calculator_screen {
-  padding: 10px;
-  font-size: 5em;
+  padding: 15px;
+  font-size: 4.5em;
   text-align: right;
   background-color: #808080;
+  color: #fff;
 }
 
 .calculator_UI {
@@ -34,7 +35,7 @@ button {
   color: #111;
   font-size: 2em;
   background: #e0e0e0;
-  border: 1px solid #c7c7c7;
+  border: 1px solid #808080;
   cursor: pointer;
 }
 
