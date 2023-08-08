@@ -17,6 +17,16 @@ body {
   border: 1px solid black;
 }
 
+button {
+  flex: 0 1 25%;
+  height: 70px;
+  color: black;
+  font-size: 2rem;
+  background: gray;
+  border: 1px solid beige;
+  cursor: pointer;
+}
+
 .screen {
   width: 100px;
   height: 40px;
