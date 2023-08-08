@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(#7f00ff, #e0e0e0);
+  background: linear-gradient(#ffa500, #e0e0e0);
 }
 
 .calculator {
@@ -40,7 +40,7 @@ button {
 }
 
 .btn_opaque {
-  background-color: #7f00ff;
+  background-color: #ffa500;
   color: #fff;
 }
 
