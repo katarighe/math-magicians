@@ -19,7 +19,7 @@ export default class Calculator extends Component {
             <button type="button" value="7">7</button>
             <button type="button" value="8">8</button>
             <button type="button" value="9">9</button>
-            <button type="button" value="*" className="btn_opaque">*</button>
+            <button type="button" value="*" className="btn_opaque">X</button>
             <button type="button" value="4">4</button>
             <button type="button" value="5">5</button>
             <button type="button" value="6">6</button>
@@ -30,7 +30,7 @@ export default class Calculator extends Component {
             <button type="button" value="+" className="btn_opaque">+</button>
             <button type="button" value="0" className="btn_large">0</button>
             <button type="button" value=".">.</button>
-            <button type="button" value="=" className="btn_opaque">/</button>
+            <button type="button" value="=" className="btn_opaque">=</button>
           </div>
         </div>
       </div>
