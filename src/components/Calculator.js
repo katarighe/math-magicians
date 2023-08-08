@@ -31,9 +31,9 @@ export default class Calculator extends Component {
             <button type="button" value="0" className="btn_large">0</button>
             <button type="button" value=".">.</button>
             <button type="button" value="=" className="btn_opaque">/</button>
-         </div>
+          </div>
+        </div>
       </div>
-  </div>
     );
   }
 }
