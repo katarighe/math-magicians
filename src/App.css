@@ -4,9 +4,16 @@ body {
   min-height: 100%;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Droid Sans', sans-serif;
+  background: linear-gradient(red, white);
+}
+
 .calculator {
-  width: 200px;
-  height: 200px;
+  max-width: 350px;
   border: 1px solid black;
 }
 
