@@ -3,3 +3,41 @@ body {
   height: 100%;
   min-height: 100%;
 }
+
+.calculator {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.screen {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  height: 40px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.operator {
+  background-color: red;
+}
+
+.clear {
+  background-color: blue;
+}
