@@ -13,8 +13,20 @@ body {
 }
 
 .calculator {
-  max-width: 350px;
+  max-width: 330px;
   border: 1px solid black;
+}
+
+.calculator_screen {
+  padding: 10px;
+  font-size: 4rem;
+  text-align: right;
+  background-color: grey;
+}
+
+.calculatorUI {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 button {
@@ -27,34 +39,10 @@ button {
   cursor: pointer;
 }
 
-.screen {
-  width: 100px;
-  height: 40px;
-  font-size: 20px;
-  text-align: center;
+.btn_opaque {
+  background-color: orange;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 200px;
-  height: 40px;
-}
-
-.button {
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 16px;
-  text-align: center;
-}
-
-.operator {
-  background-color: red;
-}
-
-.clear {
-  background-color: blue;
+.btn_large {
+  flex: 0 1 50%;
 }
