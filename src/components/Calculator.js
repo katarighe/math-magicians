@@ -13,6 +13,10 @@ export default class Calculator extends Component {
           <span>0</span>
         </div>
         <div className="buttons">
+          <button type="button" value="clear">AC</button>
+          <button type="button" value="pos-neg">+/-</button>
+          <button type="button" value="%">%</button>
+          <button type="button" value="/">÷</button>
           <button type="button" value="7">7</button>
           <button type="button" value="8">8</button>
           <button type="button" value="9">9</button>
