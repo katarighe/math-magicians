@@ -31,7 +31,7 @@ export default class Calculator extends Component {
             <button type="button" onClick={this.buttonClicked} value="7">7</button>
             <button type="button" onClick={this.buttonClicked} value="8">8</button>
             <button type="button" onClick={this.buttonClicked} value="9">9</button>
-            <button type="button" onClick={this.buttonClicked} value="x" className="btn_opaque">X</button>
+            <button type="button" onClick={this.buttonClicked} value="*" className="btn_opaque">x</button>
             <button type="button" onClick={this.buttonClicked} value="4">4</button>
             <button type="button" onClick={this.buttonClicked} value="5">5</button>
             <button type="button" onClick={this.buttonClicked} value="6">6</button>
