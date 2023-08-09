@@ -30,6 +30,7 @@ body {
 }
 
 button {
+  font-family: 'Segoe UI', sans-serif;
   flex: 0 1 25%;
   height: 70px;
   color: #111;
