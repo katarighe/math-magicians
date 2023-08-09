@@ -54,3 +54,32 @@ button {
 .btn_large {
   flex: 0 1 50%;
 }
+
+.error_message,
+.loading_message,
+.quote_container {
+  padding: 50px;
+}
+
+.loading_message {
+  color: #324ab2;
+}
+
+.error_message {
+  color: #8f00ff;
+}
+
+.quote,
+.author {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 120%;
+  text-align: center;
+}
+
+.author {
+  font-family: 'Segoe UI', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
