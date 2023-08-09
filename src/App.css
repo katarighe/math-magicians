@@ -16,6 +16,10 @@ body {
   max-width: 320px;
 }
 
+.calculator_container {
+  width: 200%;
+}
+
 .calculator_screen {
   padding: 15px;
   font-size: 4.5em;
