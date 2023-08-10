@@ -5,9 +5,15 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Run tests](#run-tests)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -35,7 +41,7 @@ The project is built with React, JSX, CSS, and JavaScript. It is also deployed o
 
 ### Key Features <a name="key-features"></a>
 
-> The key features of this project include the following. 
+> The key features of this project include the following.
 
 - **It is a simple calculator that can be used to perform basic mathematical operations.**
 - **It is built with React, JSX, CSS, and JavaScript.**
@@ -48,19 +54,51 @@ The project is built with React, JSX, CSS, and JavaScript. It is also deployed o
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-The live link of my project is available [here](https://google.com).
+- Live Demo of the Project coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+Get ready to explore the cosmos with these steps:
 
-To get started with the project, you will need to clone the repository (`https://github.com/katarighe/math-magicians.git`) and install the dependencies. Once you have done that, you can run the project by executing the following command:
+### Prerequisites <a name="prerequisites"></a>
 
-`npm start`
+Ensure you have:
+ - A Web Browser such as Microsoft Edge or Google Chrome 🌐
+ - Git 🐙
+ - A code editor such as Visual Studio Code 👨‍💻
 
-This will start the development server and you will be able to access the app at http://localhost:3000/.
+### Setup <a name="setup"></a>
+
+Use `git clone` to get your local copy of the project.
+
+```bash
+git clone https://github.com/katarighe/math-magicians.git
+```
+
+### Install <a name="install"></a>
+
+ Run `npm install` to set up the required packages.
+
+```bash
+npm install
+```
+
+### Run Tests <a name="run-tests"></a>
+To run tests run the following command in your terminal
+```
+ npm test
+```
+
+### Usage <a name="usage"></a>
+
+Launch the app with the following command
+
+```
+  npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +128,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my GitHub profile for more of my projects. 
+Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my GitHub profile for more of my projects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +136,7 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Project supervised by [Microverse](https//www.microverse.org/) 
+- Project supervised by [Microverse](https//www.microverse.org/)
 - [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,7 +146,5 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

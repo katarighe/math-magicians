@@ -14,12 +14,13 @@ body {
 }
 
 .calculator {
-  max-width: 320px;
+  max-width: 150px;
+  padding-left: 130px;
 }
 
 .calculator_container {
-  width: 200%;
-  justify-content: center;
+  width: 400%;
+  margin: 0 auto;
 }
 
 .calculator_screen {
@@ -53,4 +54,39 @@ button {
 
 .btn_large {
   flex: 0 1 50%;
+}
+
+.error_message,
+.loading_message,
+.quote_container {
+  padding: 50px;
+}
+
+.loading_message {
+  color: #324ab2;
+}
+
+.error_message {
+  color: #8f00ff;
+}
+
+.quote,
+.author {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 10px;
+  font-size: 1.25rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.quote_container {
+  justify-content: center;
+  text-align: center;
+}
+
+.author {
+  font-family: 'Segoe UI', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 50%;
 }
