@@ -27,8 +27,8 @@ export default function Quote() {
     fetchQuote();
   }, [setData, setLoading, setError]);
 
-  if (error) return <div className="error_message">Something went wrong! Please try again!</div>;
-  if (loading) return <div className="loading_message">Loading... Please wait.</div>;
+  if (error) return <div className="error_message">Something went wrong! Please try again.</div>;
+  if (loading) return <div className="loading_message">Loading quote, please wait....</div>;
 
   return (
     <div className="quote_container">
