@@ -55,7 +55,7 @@ The project is built with React, JSX, CSS, and JavaScript. It is also deployed o
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon
+- Live Demo of the Project coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,6 +147,5 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
