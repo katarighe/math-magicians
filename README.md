@@ -13,7 +13,7 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Run tests](#run-tests)
-  - [Useage](#usage)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
