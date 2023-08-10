@@ -20,6 +20,7 @@ body {
 
 .calculator {
   max-width: 200px;
+  padding-left: 120px;
 }
 
 .calculator_container {
