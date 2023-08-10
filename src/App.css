@@ -15,7 +15,7 @@ body {
 
 .calculator {
   max-width: 150px;
-  margin: 0 auto;
+  padding-left: 130px;
 }
 
 .calculator_container {
