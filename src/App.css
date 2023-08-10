@@ -13,19 +13,14 @@ body {
   background: linear-gradient(#ffa500, #e0e0e0, #ffa500);
 }
 
-.main_container {
-  justify-content: center;
-  align-items: center;
-}
-
 .calculator {
-  max-width: 160px;
-  padding-left: 220px;
+  max-width: 150px;
+  margin: 0 auto;
 }
 
 .calculator_container {
   width: 400%;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .calculator_screen {
@@ -80,7 +75,7 @@ button {
   font-family: 'Segoe UI', sans-serif;
   padding: 10px;
   font-size: 1.25rem;
-  line-height: 130%;
+  line-height: 200%;
   text-align: center;
 }
 
