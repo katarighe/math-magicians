@@ -9,3 +9,8 @@
 .home_heading {
   font-size: 1.75rem;
 }
+
+.home_paragraph {
+  font-size: 1.25rem;
+  align-items: center;
+}
