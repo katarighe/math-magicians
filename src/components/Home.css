@@ -7,7 +7,27 @@
 }
 
 .home_heading {
-  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  animation: header-animation 2s infinite;
+  color: #e7fc2a;
+}
+
+@keyframes home_heading-animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .home_paragraph {
