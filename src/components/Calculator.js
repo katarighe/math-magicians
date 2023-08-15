@@ -14,34 +14,37 @@ const Calculator = () => {
   const { total, next, operation } = display;
 
   return (
-    <div className="calculator_page">
-      <div className="calculator">
-        <div className="calculator_container">
-          <div className="calculator_screen">
-            {total}
-            {operation}
-            {next}
-          </div>
-          <div className="calculator_UI">
-            <button type="button" onClick={buttonClicked} value="clear">AC</button>
-            <button type="button" onClick={buttonClicked} value="pos-neg">+/-</button>
-            <button type="button" onClick={buttonClicked} value="%">%</button>
-            <button type="button" onClick={buttonClicked} value="/" className="btn_opaque">÷</button>
-            <button type="button" onClick={buttonClicked} value="7">7</button>
-            <button type="button" onClick={buttonClicked} value="8">8</button>
-            <button type="button" onClick={buttonClicked} value="9">9</button>
-            <button type="button" onClick={buttonClicked} value="*" className="btn_opaque">x</button>
-            <button type="button" onClick={buttonClicked} value="4">4</button>
-            <button type="button" onClick={buttonClicked} value="5">5</button>
-            <button type="button" onClick={buttonClicked} value="6">6</button>
-            <button type="button" onClick={buttonClicked} value="-" className="btn_opaque">-</button>
-            <button type="button" onClick={buttonClicked} value="1">1</button>
-            <button type="button" onClick={buttonClicked} value="2">2</button>
-            <button type="button" onClick={buttonClicked} value="3">3</button>
-            <button type="button" onClick={buttonClicked} value="+" className="btn_opaque">+</button>
-            <button type="button" onClick={buttonClicked} value="0" className="btn_large">0</button>
-            <button type="button" onClick={buttonClicked} value=".">.</button>
-            <button type="button" onClick={buttonClicked} value="=" className="btn_opaque">=</button>
+    <div className="calculator_header">
+      <h1 className="header">Let us do some math!</h1>
+      <div className="calculator_page">
+        <div className="calculator">
+          <div className="calculator_container">
+            <div className="calculator_screen">
+              {total}
+              {operation}
+              {next}
+            </div>
+            <div className="calculator_UI">
+              <button type="button" onClick={buttonClicked} value="clear">AC</button>
+              <button type="button" onClick={buttonClicked} value="pos-neg">+/-</button>
+              <button type="button" onClick={buttonClicked} value="%">%</button>
+              <button type="button" onClick={buttonClicked} value="/" className="btn_opaque">÷</button>
+              <button type="button" onClick={buttonClicked} value="7">7</button>
+              <button type="button" onClick={buttonClicked} value="8">8</button>
+              <button type="button" onClick={buttonClicked} value="9">9</button>
+              <button type="button" onClick={buttonClicked} value="*" className="btn_opaque">x</button>
+              <button type="button" onClick={buttonClicked} value="4">4</button>
+              <button type="button" onClick={buttonClicked} value="5">5</button>
+              <button type="button" onClick={buttonClicked} value="6">6</button>
+              <button type="button" onClick={buttonClicked} value="-" className="btn_opaque">-</button>
+              <button type="button" onClick={buttonClicked} value="1">1</button>
+              <button type="button" onClick={buttonClicked} value="2">2</button>
+              <button type="button" onClick={buttonClicked} value="3">3</button>
+              <button type="button" onClick={buttonClicked} value="+" className="btn_opaque">+</button>
+              <button type="button" onClick={buttonClicked} value="0" className="btn_large">0</button>
+              <button type="button" onClick={buttonClicked} value=".">.</button>
+              <button type="button" onClick={buttonClicked} value="=" className="btn_opaque">=</button>
+            </div>
           </div>
         </div>
       </div>
