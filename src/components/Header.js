@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => (
   <div>
-    <h1 className="title">Welcome to Math Magicians!</h1>
+    <h1 className="title">Math Magicians</h1>
   </div>
 );
 
