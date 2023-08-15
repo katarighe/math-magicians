@@ -1,0 +1,35 @@
+.home_page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+  margin: 25px;
+}
+
+.home_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  animation: header-animation 2s infinite;
+  color: #e7fc2a;
+}
+
+@keyframes home_heading-animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.home_paragraph {
+  font-size: 1.5rem;
+}

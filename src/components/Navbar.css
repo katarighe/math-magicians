@@ -1,0 +1,26 @@
+.nav_bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a:hover {
+  color: #00ff40;
+}
+
+.links {
+  display: flex;
+  gap: 5rem;
+}
+
+.link {
+  list-style: none;
+  font-size: 1.75rem;
+}

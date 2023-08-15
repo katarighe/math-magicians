@@ -1,0 +1,46 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.header_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  animation: header-animation 2s infinite;
+  color: #15f144;
+}
+
+@keyframes header_2-animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.description {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.author {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  line-height: 50%;
+  font-size: 1.75rem;
+}
