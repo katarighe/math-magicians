@@ -21,8 +21,7 @@ const Quote = () => {
         </p>
         <big>
           <b className="author">
-            Paul Erdős, a Hungarian mathematician known to be
-            one of the greatest mathematicians of the 20th century
+            Paul Erdős
           </b>
         </big>
       </div>
