@@ -4,7 +4,7 @@ import './Home.css';
 const Home = () => (
   <div>
     <div className="home_page">
-      <h2 className="home_heading">Welcome to Math Magicians!</h2>
+      <h1 className="home_heading">Welcome to Math Magicians!</h1>
       <p className="home_paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus
         augue, mattis vel iaculis non, fringilla vitae orci. Cras eu lectus non
