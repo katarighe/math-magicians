@@ -1,51 +1,12 @@
 .title {
   font-size: 2.8rem;
-  text-shadow: 0 0 5px #e43be4, 0 0 15px #e43be4, 0 0 20px #e43be4, 0 0 40px #e43be4, 0 0 60px #ca1d1d, 0 0 10px #e43be4, 0 0 98px #ca1d1d;
-  color: #e2d23e;
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  animation: blink 12s infinite;
-  -webkit-animation: blink 12s infinite;
-}
-
-@-webkit-keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-    text-shadow: 0 0 5px #e43be4, 0 0 15px #e43be4, 0 0 20px #e43be4, 0 0 40px #e43be4, 0 0 60px #f00, 0 0 10px #e43be4, 0 0 98px #ca1d1d;
-    color: #e2d23e;
-  }
-}
-
-@keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #000;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-    text-shadow: 0 0 5px #e43be4, 0 0 15px #e43be4, 0 0 20px #e43be4, 0 0 40px #e43be4, 0 0 60px #f00, 0 0 10px #e43be4, 0 0 98px #ca1d1d;
-    color: #e2d23e;
-  }
+  color: #c0bd0b;
+  border-bottom: 2px solid #04e604;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 1px 0 rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
