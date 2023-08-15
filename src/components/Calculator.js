@@ -11,10 +11,10 @@ const Calculator = () => {
     newDisplay(answer);
   };
 
-const { total, next, operation } = display;
+  const { total, next, operation } = display;
 
-    return (
-      <div className="calculator_page">
+  return (
+    <div className="calculator_page">
       <div className="calculator">
         <div className="calculator_container">
           <div className="calculator_screen">
@@ -45,7 +45,7 @@ const { total, next, operation } = display;
           </div>
         </div>
       </div>
-      </div>
-    );
-    };
+    </div>
+  );
+};
 export default Calculator;
