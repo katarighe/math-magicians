@@ -1,10 +1,10 @@
 import React from 'react';
-import './Header';
+import './Header.css';
 
 const Header = () => (
-    <div>
-        <h1 className="title">Welcome to Math Magicians!</h1>
-    </div>
+  <div>
+    <h1 className="title">Welcome to Math Magicians!</h1>
+  </div>
 );
 
 export default Header;
