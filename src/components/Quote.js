@@ -1,39 +1,30 @@
-import { useEffect, useState } from 'react';
+import React from 'react';
+import Header from './Header';
+import './Quote.css';
 
-export default function Quote() {
-  const [error, setError] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [data, setData] = useState('');
-
-  useEffect(() => {
-    setLoading(true);
-    const fetchQuote = async () => {
-      try {
-        const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=intelligence', {
-          method: 'GET',
-          withCredientials: true,
-          headers: {
-            'X-Api-Key': 'JPH0dr8vp5cPyFyCj/jr7g==7Z5eQyE7zjkxZ4gW',
-            'Content-Type': 'application/json',
-          },
-        });
-        const json = await res.json();
-        setData(json[0]);
-      } catch (error) {
-        setError(true);
-      }
-      setLoading(false);
-    };
-    fetchQuote();
-  }, [setData, setLoading, setError]);
-
-  if (error) return <div className="error_message">Something went wrong! Please try again.</div>;
-  if (loading) return <div className="loading_message">Loading quote, please wait....</div>;
-
+const Quote = () => {
+  <Header />;
   return (
-    <div className="quote_container">
-      <p className="quote">{data.quote}</p>
-      <p className="author">{data.author}</p>
+    <div className="quote">
+      <p>
+        Mathematics is the language of science.
+        It is the language of logic and reason.
+        It is the language of the universe.
+        Without mathematics, we would not be able
+        to understand the world around us. We would
+        not be able to make predictions about the future.
+        We would not be able to create new technologies.
+        Mathematics is essential to our understanding
+        of the world and our ability to shape it.
+      </p>
+      <big>
+        <b>
+          Paul Erdős, a Hungarian mathematician known to be
+          one of the greatest mathematicians of the 20th century
+        </b>
+      </big>
     </div>
   );
-}
+};
+
+export default Quote;
