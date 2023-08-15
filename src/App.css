@@ -9,7 +9,7 @@ body {
   align-items: stretch;
   font-family: 'Droid Sans', sans-serif;
   flex-direction: column;
-  background: linear-gradient(#ffa500, #e0e0e0, #ffa500);
+  background: #8a2be2;
   padding: 20px;
-  color: #fd2020;
+  color: #fff;
 }
