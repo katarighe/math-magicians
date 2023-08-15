@@ -6,7 +6,7 @@ const Quote = () => {
   <Header />;
   return (
     <div className="quote">
-      <p>
+      <p className="description">
         Mathematics is the language of science.
         It is the language of logic and reason.
         It is the language of the universe.
@@ -18,7 +18,7 @@ const Quote = () => {
         of the world and our ability to shape it.
       </p>
       <big>
-        <b>
+        <b className="author">
           Paul Erdős, a Hungarian mathematician known to be
           one of the greatest mathematicians of the 20th century
         </b>
