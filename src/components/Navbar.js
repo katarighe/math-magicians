@@ -4,20 +4,20 @@ import Header from './Header';
 import './Navbar.css';
 
 const Navbar = () => (
-<nav className="nav_bar">
+  <nav className="nav_bar">
     <Header />
     <ul className="links">
         <li className="link">
-            <Link to="/">Home</Link>
-            </li>
-            <li className="link">
-                <Link to="/Calculator">Calculator</Link>
-      </li>
-      <li className="link">
-        <Link to="/Quote">Quote</Link>
-            </li>
-        </ul>
-    </nav>
-)
+          <Link to="/">Home</Link>
+        </li>
+        <li className="link">
+          <Link to="/Calculator">Calculator</Link>
+        </li>
+        <li className="link">
+          <Link to="/Quote">Quote</Link>
+        </li>
+    </ul>
+  </nav>
+);
 
 export default Navbar;
