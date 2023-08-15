@@ -1,6 +1,9 @@
 .calculator {
-  max-width: 150px;
-  padding-left: 130px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: center;
+  max-width: 330px;
+  padding: 0 95px;
 }
 
 .calculator_page {
@@ -51,33 +54,4 @@ button {
 .loading_message,
 .quote_container {
   padding: 50px;
-}
-
-.loading_message {
-  color: #324ab2;
-}
-
-.error_message {
-  color: #8f00ff;
-}
-
-.quote,
-.author {
-  font-family: "Segoe UI", sans-serif;
-  padding: 10px;
-  font-size: 1.25rem;
-  line-height: 200%;
-  text-align: center;
-}
-
-.quote_container {
-  justify-content: center;
-  text-align: center;
-}
-
-.author {
-  font-family: "Segoe UI", sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 50%;
 }
