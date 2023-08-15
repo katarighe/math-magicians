@@ -6,7 +6,7 @@ const Quote = () => {
   <Header />;
   return (
     <div className="calculator_header">
-      <h1 className="header_2">Read this favorite quote on math!</h1>
+      <h1 className="header_2">Read this favorite math quote!</h1>
       <div className="quote">
         <p className="description">
           Mathematics is the language of science.
