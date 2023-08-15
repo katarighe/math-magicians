@@ -3,6 +3,12 @@
   padding-left: 130px;
 }
 
+.calculator_page {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
 .calculator_container {
   width: 400%;
   margin: 0 auto;
