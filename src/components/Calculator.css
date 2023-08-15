@@ -49,9 +49,3 @@ button {
 .btn_large {
   flex: 0 1 50%;
 }
-
-.error_message,
-.loading_message,
-.quote_container {
-  padding: 50px;
-}
