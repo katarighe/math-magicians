@@ -14,12 +14,12 @@ a:hover {
   color: yellow;
 }
 
-.link {
-  list-style: none;
-  font-size: 1.75rem;
-}
-
 .links {
   display: flex;
   gap: 1rem;
+}
+
+.link {
+  list-style: none;
+  font-size: 1.75rem;
 }
