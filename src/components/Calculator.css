@@ -12,6 +12,10 @@
 }
 
 .header {
+  position: absolute;
+  left: 40px;
+  bottom: 600px;
+  right: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +40,7 @@
 
 .calculator_page {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   padding: 16px;
 }
 
