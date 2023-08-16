@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders correctly when there are no items present 1`] = `
+exports[`If it renders correctly 1`] = `
 <div
   className="calculator_header"
 >

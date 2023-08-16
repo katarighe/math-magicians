@@ -8,7 +8,7 @@ test('Snapshot test for Quote component', () => {
   expect(tree).toMatchSnapshot();
 });
 
-it('Renders correctly when there are no items present', () => {
+it('If it renders correctly', () => {
   const tree = renderer.create(<Quote />).toJSON();
   expect(tree).toMatchSnapshot();
 });
