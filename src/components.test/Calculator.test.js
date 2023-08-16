@@ -14,7 +14,7 @@ it('renders correctly if there is no items present', () => {
   expect(tree).toMatchSnapshot();
 });
 
-it('checks the UI changes state after the button is clicked', () => {
+it('checks UI changes state after the button is clicked', () => {
   const { getByText } = render(<Calculator />);
   const number1 = getByText(1);
   const answer = number1.textContent;
