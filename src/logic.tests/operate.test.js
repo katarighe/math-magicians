@@ -14,9 +14,10 @@ describe('testing function:', () => {
         const calculateObjct = { total: 4, next: 9, operation: 'x' };
         const result = { operation: null, next: null, total: '36' };
         expect(calculate(calculateObjct, '=')).toEqual(result);
-    });    test('the + button', () => {
-        const calculateObjct = { total: 0, next: .9, operation: '+' };
-        expect(calculate(calculateObjct, '.')).toEqual({...calculateObjct, next: '.9' });
+    });    
+    test('the . button', () => {
+        const calculateObjct = { total: '0', next: '.5', operation: '+' };
+        expect(calculate(calculateObjct, '.')).toEqual({ ...calculateObjct, next: '.5' });
     });
 });
 
