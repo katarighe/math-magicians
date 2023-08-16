@@ -1,6 +1,6 @@
 import operate from '../logic/operate';
 
-// Test the four major math operations (add, subtract, multiply, & divide + modulo and modulo errors)
+// Test the four major math operations (add, subtract, multiply, & divide - also include modulo and modulo errors)
 describe('Test the operate function', () => {
     // Test the addition operation
     test('Sum 3 + 7 to equal 10', () => {
