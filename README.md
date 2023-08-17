@@ -54,7 +54,7 @@ The project is built with React, JSX, CSS, and JavaScript. It is also deployed o
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Live Demo of the Project coming soon
+- Live Demo of the Project: https://jazzy-puffpuff-8c8b52.netlify.app/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
